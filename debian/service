@@ -7,7 +7,7 @@ ConditionPathExists=/var/lib/zookeeper/myid
 Type=simple
 User=zookeeper
 SyslogIdentifier=zookeeper
-EnvironmentFile=/etc/zookeeper/conf/environment
+EnvironmentFile=/etc/zookeeper/environment
 EnvironmentFile=-/etc/default/zookeeper
 ExecStart=/usr/bin/java -cp ${CLASSPATH} $JAVA_OPTS -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.local.only=${JMXLOCALONLY} -Dzookeeper.log.dir=${ZOO_LOG_DIR} -Dzookeeper.root.logger=${ZOO_LOG4J_PROP} $ZOOMAIN $ZOOCFG
 SuccessExitStatus=143

@@ -29,6 +29,4 @@ fi
 chown $USER:$GROUP /var/log/$NAME
 chown $USER:$GROUP /var/lib/$NAME
 
-update-alternatives --install /etc/$NAME/conf $NAME-conf /etc/$NAME/conf_example 5
-
 #DEBHELPER#

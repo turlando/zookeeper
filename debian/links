@@ -1,0 +1,2 @@
+/etc/zookeeper/environment /usr/bin/zkEnv.sh
+/etc/zookeeper/myid /var/lib/zookeeper/myid

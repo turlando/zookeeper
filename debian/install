@@ -1,0 +1,6 @@
+bin/zkCleanup.sh /usr/bin/
+bin/zkCli.sh /usr/bin/
+bin/zkServer.sh /usr/sbin/
+debian/conf/* /etc/zookeeper/
+build/zookeeper.jar /usr/share/zookeeper/
+build/lib/*.jar /usr/share/zookeeper/
